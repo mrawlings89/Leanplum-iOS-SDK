@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/leanplum'
   s.requires_arc = true
   s.source = { :git => 'https://github.com/Leanplum/Leanplum-tvOS-SDK-Internal.git', :tag => s.version.to_s }
-  s.tvos.deployment_target = '8.0'
+  s.tvos.deployment_target = '9.0'
   s.frameworks = 'CFNetwork', 'Foundation', 'Security', 'SystemConfiguration', 'UIKit'
   s.weak_frameworks = 'AdSupport', 'StoreKit'
   s.library = 'sqlite3'
